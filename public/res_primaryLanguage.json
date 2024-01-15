@@ -1,0 +1,133 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Shivani Shailja. Passionate front-end developer with a robust skill set in HTML, CSS, JavaScript, and proficiency in React. Experienced in crafting user-friendly web interfaces using Bootstrap and Tailwind CSS for responsiveness and visual appeal. Eager to contribute innovative solutions and fresh perspectives to collaborative projects, demonstrating a commitment to continuous learning. Ready to infuse creativity and enthusiasm into a dynamic development team.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "education": "education"
+      }
+    },
+    "projects": [
+      {
+        "title": "Chat Wave",
+        "startDate": "2023",
+        "description": "Used HTML, CSS, and JavaScript for the creation of a user-friendly chat interface. Acquired hands-on experience in Node.js and Socket.io, implementing custom commands and emoji replacements to enhance user satisfaction.",
+        "images": [
+          "images/portfolio/ChatWave/p1.png",
+          "images/portfolio/ChatWave/p2.png"
+        ],
+        "url": "https://github.com/shivaniongit18/simple-chat-app",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-socketio-original",
+            "name": "Socket.io"
+          }
+        ]
+      },
+      {
+        "title": "ShopHub",
+        "startDate": "2024",
+        "description": "This website boasts a polished and responsive design, created using HTML, CSS, JS, and React.",
+        "images": [
+          "images/portfolio/ShopHub/p1.png",
+          "images/portfolio/ShopHub/p2.png"
+        ],
+        "url": "https://github.com/shivaniongit18/e-commerce",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Mern-App",
+        "startDate": "2024",
+        "description": "Build dynamic web applications with the MERN stack, combining MongoDB, Express, React, and Node.js for efficient and scalable full-stack development. Create responsive websites with a powerful back-end and interactive front-end, offering speed, security, and ease of maintenance.",
+        "images": [
+          "images/portfolio/Mern-app/p1.png",
+          "images/portfolio/Mern-app/p2.png"
+        ],
+        "url": "https://github.com/shivaniongit18/mern-app",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+            },
+            {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+            },
+            {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+            }            
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "Full Stack Development",
+        "degree": "100x Engineers",
+        "years": "August 2023 - November 2023",
+        "location": "Bangalore, India",
+        "description": [
+          "Acquired proficiency in full-stack web development, covering both front-end and back-end technologies.",
+          "Demonstrated skills through impactful projects showcasing comprehensive full-stack development, emphasizing both front-end and back-end capabilities."
+        ]
+      },
+      {
+        "school": "Institute of Information Technology and Management, Delhi",
+        "degree": "Bachelor of Computer Application",
+        "years": "December 2020 - May 2023",
+        "location": "New Delhi, India",
+        "cgpa": "8.8",
+        "description": [
+          "Studied a comprehensive curriculum covering various subjects in Computer Application.",
+          "Achieved a CGPA of 8.8."
+        ],
+        "mainTech": [
+          "Graduation"
+        ]
+      }
+    ]
+    
+  }
