@@ -1,0 +1,63 @@
+{
+  "basic_info": {
+    "name": "Shivani Shailja",
+    "titles": ["Front-end Developer", "Web Developer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/shivaniongit18",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shivani-shailja-556a93227/",
+        "class": "fab fa-linkedin"
+      }      
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Tailwind CSS",
+        "class": "devicon-tailwindcss-plain",
+        "level": "90"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "80"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "70"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "70"
+      },
+      {
+        "name": "Figma",
+        "class": "devicon-figma-plain",
+        "level": "85"
+      }
+    ]
+  }
+}

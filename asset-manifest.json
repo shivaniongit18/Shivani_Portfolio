@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shivani_portfolio/static/css/main.30f0126f.css",
+    "main.js": "/Shivani_portfolio/static/js/main.774fe4ff.js",
+    "index.html": "/Shivani_portfolio/index.html",
+    "main.30f0126f.css.map": "/Shivani_portfolio/static/css/main.30f0126f.css.map",
+    "main.774fe4ff.js.map": "/Shivani_portfolio/static/js/main.774fe4ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30f0126f.css",
+    "static/js/main.774fe4ff.js"
+  ]
+}
