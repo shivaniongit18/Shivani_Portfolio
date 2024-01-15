@@ -105,13 +105,20 @@ class Header extends Component {
                     letterSpacing: "1px",
                   }}
                   onMouseOver={(event) => {
-                    event.target.style.backgroundColor = "#EFE1BD"; 
+                    event.target.style.backgroundColor = "#EFE1BD";
                   }}
                   onMouseOut={(event) => {
-                    event.target.style.backgroundColor = "#000"; 
+                    event.target.style.backgroundColor = "#000";
                   }}
                 >
-                  Resume
+                  <a
+                    href="https://drive.google.com/file/d/1jV5n7eogfnBVoNzKVUyqysF4g1Bo2ALQ/view?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    Resume
+                  </a>
                 </button>
 
               </div>
