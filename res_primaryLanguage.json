@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Shivani Shailja. Passionate front-end developer with a robust skill set in HTML, CSS, JavaScript, and proficiency in React. Experienced in crafting user-friendly web interfaces using Bootstrap and Tailwind CSS for responsiveness and visual appeal. Eager to contribute innovative solutions and fresh perspectives to collaborative projects, demonstrating a commitment to continuous learning. Ready to infuse creativity and enthusiasm into a dynamic development team.",
+      "description": "👋 I'm Shivani Shailja a proficient UI/UX Developer skilled in HTML, CSS, JavaScript, and React. My dedication lies in crafting intuitive digital experiences. Passionate about UI/UX design, wireframing, and prototyping, I strive to deliver user-centric solutions and thrive in the dynamic world of development.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -101,7 +101,77 @@
             "name": "MongoDB"
             }            
         ]
+      },
+      {
+        "title": "Food Dash (Delivery Partner)",
+        "startDate": "2024",
+        "description": "Design a mobile application interface for delivery partners to navigate routes efficiently",
+        "images": [
+          "images/portfolio/FoodDash/p1.png"
+        ],
+        "url": "https://www.figma.com/file/6phxsz2m74oifzrecg4WwB/FoodDash-(Delivery-partner)?type=design&node-id=0%3A1&mode=design&t=DjkpyJGxMHVFbyFv-1",
+        "technologies": [
+          {
+            "class": "devicon-sketch-line",
+            "name": "Wireframing"
+          },
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
+          },
+          {
+            "class": "devicon-sketch-line",
+            "name": "Prototyping"
+            }          
+        ]
+      },
+      {
+        "title": "Food Dash (Regional Manager)",
+        "startDate": "2024",
+        "description": "Design a mobile application interface for regional managers to monitor and track delivery partner performance and customer issues.",
+        "images": [
+          "images/portfolio/FoodDash/p2.png"
+        ],
+        "url": "https://www.figma.com/file/HzEkEJ3qzcvppIpKqZJTs5/Food-Dash-(Regional-manager)?type=design&node-id=0%3A1&mode=design&t=cec0wUTGbpagK25b-1",
+        "technologies": [
+          {
+            "class": "devicon-sketch-line",
+            "name": "Wireframing"
+          },
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
+          },
+          {
+            "class": "devicon-sketch-line",
+            "name": "Prototyping"
+            }          
+        ]
+      },
+      {
+        "title": "Musify",
+        "startDate": "2024",
+        "description": "This Figma project demonstrates the application of critical thinking in the creation of user interfaces and products, ensuring alignment with user needs and logical consistency throughout the design process.",
+        "images": [
+          "images/portfolio/Musify/p1.png"
+        ],
+        "url": "https://www.figma.com/file/7j9V9VEuuSCc8yx1v9GjEH/Musify---Mobile-music-app-(Community)?type=design&node-id=0%3A1&mode=design&t=sL8H5zhxhlmjgQyL-1",
+        "technologies": [
+          {
+            "class": "devicon-sketch-line",
+            "name": "Wireframing"
+          },
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
+          },
+          {
+            "class": "devicon-sketch-line",
+            "name": "Prototyping"
+            }          
+        ]
       }
+
     ],
     "education": [
       {

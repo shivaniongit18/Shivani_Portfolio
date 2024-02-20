@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Shivani_portfolio/static/css/main.30f0126f.css",
-    "main.js": "/Shivani_portfolio/static/js/main.66e60c37.js",
+    "main.js": "/Shivani_portfolio/static/js/main.654ff6d9.js",
     "index.html": "/Shivani_portfolio/index.html",
     "main.30f0126f.css.map": "/Shivani_portfolio/static/css/main.30f0126f.css.map",
-    "main.66e60c37.js.map": "/Shivani_portfolio/static/js/main.66e60c37.js.map"
+    "main.654ff6d9.js.map": "/Shivani_portfolio/static/js/main.654ff6d9.js.map"
   },
   "entrypoints": [
     "static/css/main.30f0126f.css",
-    "static/js/main.66e60c37.js"
+    "static/js/main.654ff6d9.js"
   ]
 }
