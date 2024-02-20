@@ -27,19 +27,33 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles.map(x => [x.toUpperCase(), 1500]).flat();
+      this.titles = this.props.sharedData.titles
+        .map((x) => [x.toUpperCase(), 1500])
+        .flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo(() => {
-      return <Typical className="title-styles" steps={this.titles} loop={50} />;
-    }, (props, prevProp) => true);
+    const HeaderTitleTypeAnimation = React.memo(
+      () => {
+        return (
+          <Typical className="title-styles" steps={this.titles} loop={50} />
+        );
+      },
+      (props, prevProp) => true
+    );
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: "block" }}>
+      <header
+        id="home"
+        style={{ height: window.innerHeight - 140, display: "block" }}
+      >
         <div className="row aligner" style={{ height: "100%" }}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <span
+                className="iconify header-icon"
+                data-icon="la:laptop-code"
+                data-inline="false"
+              ></span>
               <br />
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
@@ -90,7 +104,8 @@ class Header extends Component {
               <div className="d-flex justify-content-center mt-3">
                 <button
                   style={{
-                    backgroundColor: "#1F1F1F",
+                    position: "relative",
+                    background: "linear-gradient(to right, beige, black)",
                     color: "#fff",
                     padding: "15px 30px",
                     marginTop: "80px",
@@ -98,29 +113,50 @@ class Header extends Component {
                     borderRadius: "15px",
                     fontSize: "18px",
                     cursor: "pointer",
-                    transition: "background-color 0.3s ease-in-out, transform 0.2s ease-in-out",
+                    transition:
+                      "background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out",
                     boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.2)",
                     border: "none",
                     outline: "none",
                     letterSpacing: "1px",
                   }}
                   onMouseOver={(event) => {
-                    event.target.style.backgroundColor = "#EFE1BD";
+                    event.target.style.background =
+                      "linear-gradient(to right, black, beige)";
+                    event.target.style.transform = "scale(1.05)";
+                    event.target.style.boxShadow =
+                      "0px 8px 15px rgba(0, 0, 0, 0.4)";
                   }}
                   onMouseOut={(event) => {
-                    event.target.style.backgroundColor = "#000";
+                    event.target.style.background =
+                      "linear-gradient(to right, beige, black)";
+                    event.target.style.transform = "scale(1)";
+                    event.target.style.boxShadow =
+                      "0px 5px 10px rgba(0, 0, 0, 0.2)";
                   }}
                 >
                   <a
                     href="https://drive.google.com/file/d/1jV5n7eogfnBVoNzKVUyqysF4g1Bo2ALQ/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ textDecoration: 'none', color: 'inherit' }}
+                    style={{
+                      textDecoration: "none",
+                      color: "inherit",
+                      paddingRight: "10px",
+                    }}
                   >
                     Resume
+                    <span
+                      style={{
+                        fontSize: "20px",
+                        position: "absolute",
+                        right: "15px",
+                      }}
+                    >
+                      →
+                    </span>
                   </a>
                 </button>
-
               </div>
             </div>
           </div>

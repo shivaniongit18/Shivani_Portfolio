@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "Shivani Shailja",
-    "titles": ["Front-end Developer", "Web Developer"],
+    "titles": ["Front-end Developer", "UX Designer"],
     "social": [
       {
         "name": "github",
@@ -53,11 +53,21 @@
         "class": "devicon-mongodb-plain",
         "level": "70"
       },
-      {
-        "name": "Figma",
-        "class": "devicon-figma-plain",
-        "level": "85"
-      }
+    {
+        "name": "UI/UX Prototyping",
+        "class": "devicon-sketch-line",
+        "level": "70"
+    },
+    {
+      "name": "Figma",
+      "class": "devicon-figma-plain",
+      "level": "85"
+  },
+    {
+        "name": "Wireframing",
+        "class": "devicon-sketch-line",
+        "level": "70"
+    }
     ]
   }
 }
