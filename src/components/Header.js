@@ -88,9 +88,10 @@ class Header extends Component {
                 id="icon-switch"
               />
               <div className="d-flex justify-content-center mt-3">
-                <button
+                                <button
                   style={{
-                    backgroundColor: "#1F1F1F",
+                    position: "relative",
+                    background: "linear-gradient(to right, beige, black)",
                     color: "#fff",
                     padding: "15px 30px",
                     marginTop: "80px",
@@ -98,28 +99,51 @@ class Header extends Component {
                     borderRadius: "15px",
                     fontSize: "18px",
                     cursor: "pointer",
-                    transition: "background-color 0.3s ease-in-out, transform 0.2s ease-in-out",
+                    transition:
+                      "background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out",
                     boxShadow: "0px 5px 10px rgba(0, 0, 0, 0.2)",
                     border: "none",
                     outline: "none",
                     letterSpacing: "1px",
                   }}
                   onMouseOver={(event) => {
-                    event.target.style.backgroundColor = "#EFE1BD";
+                    event.target.style.background =
+                      "linear-gradient(to right, black, beige)";
+                    event.target.style.transform = "scale(1.05)";
+                    event.target.style.boxShadow =
+                      "0px 8px 15px rgba(0, 0, 0, 0.4)";
                   }}
                   onMouseOut={(event) => {
-                    event.target.style.backgroundColor = "#000";
+                    event.target.style.background =
+                      "linear-gradient(to right, beige, black)";
+                    event.target.style.transform = "scale(1)";
+                    event.target.style.boxShadow =
+                      "0px 5px 10px rgba(0, 0, 0, 0.2)";
                   }}
                 >
                   <a
-                    href="https://drive.google.com/file/d/1jV5n7eogfnBVoNzKVUyqysF4g1Bo2ALQ/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1tlVej26A2siTkgwDMvNC5mE5kFBFjkut/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ textDecoration: 'none', color: 'inherit' }}
+                    style={{
+                      textDecoration: "none",
+                      color: "inherit",
+                      paddingRight: "10px",
+                    }}
                   >
                     Resume
+                    <span
+                      style={{
+                        fontSize: "20px",
+                        position: "absolute",
+                        right: "15px",
+                      }}
+                    >
+                      →
+                    </span>
                   </a>
                 </button>
+
 
               </div>
             </div>
