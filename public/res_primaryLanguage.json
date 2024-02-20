@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Shivani Shailja. As a UI/UX Developer adept in HTML, CSS, JavaScript, and React, I'm dedicated to crafting intuitive digital experiences. Passionate about UI/UX design, wireframing, and prototyping, I strive to deliver user-centric solutions and thrive in the dynamic world of development.",
+      "description": "👋 I'm Shivani Shailja a proficient UI/UX Developer skilled in HTML, CSS, JavaScript, and React. My dedication lies in crafting intuitive digital experiences. Passionate about UI/UX design, wireframing, and prototyping, I strive to deliver user-centric solutions and thrive in the dynamic world of development.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -121,7 +121,7 @@
           },
           {
             "class": "devicon-sketch-line",
-            "name": "Prototying"
+            "name": "Prototyping"
             }          
         ]
       },
@@ -144,7 +144,7 @@
           },
           {
             "class": "devicon-sketch-line",
-            "name": "Prototying"
+            "name": "Prototyping"
             }          
         ]
       },
@@ -167,7 +167,7 @@
           },
           {
             "class": "devicon-sketch-line",
-            "name": "Prototying"
+            "name": "Prototyping"
             }          
         ]
       }
