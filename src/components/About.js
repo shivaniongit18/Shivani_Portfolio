@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import reactIcon from "@iconify/icons-logos/react";
-import tailwindIcon from "@iconify/icons-logos/tailwindcss-icon";
 import bootstrapIcon from "@iconify/icons-logos/bootstrap";
+import figmaIcon from "@iconify/icons-logos/figma";
 
 class About extends Component {
   render() {
@@ -35,12 +35,12 @@ class About extends Component {
                     icon={reactIcon}
                     style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
-                  <Icon
-                    icon={tailwindIcon}
+                   <Icon
+                    icon={bootstrapIcon}
                     style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={bootstrapIcon}
+                    icon={figmaIcon}
                     style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
